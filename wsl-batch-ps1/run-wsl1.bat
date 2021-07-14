@@ -1,0 +1,1 @@
+Powershell.exe -Command "& {Start-Process Powershell.exe -ArgumentList '-ExecutionPolicy Bypass -File %~dp0wsl1.ps1' -Verb RunAs}"
